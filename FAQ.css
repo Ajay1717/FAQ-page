@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+*
+{
+    box-sizing: border-box ;
+}
+html {
+    overflow-y: scroll; 
+  }
+body
+{
+ overflow-x: hidden;
+ padding-top: 100px;
+ scroll-behavior: auto;
+ font-family: 'Montserrat', sans-serif;
+ background-color: white;
+
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 0px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: rgba(51, 51, 51, 0.644);
+    border-radius: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(56, 56, 56);
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(48, 38, 53, 0.466);
+    background: transparent;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background: #999;
+  }
+
+
+.container-fluid ul li a:hover
+{
+    color: orangered;
+}
+
+.Q
+{
+   text-align: left; 
+}
+
+.card
+{
+    border-color: transparent;
+    position: sticky;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    text-align: left;
+    border-radius:15px;
+    top: 150px;
+    height: 400px;
+    overflow-y: scroll;
+    
+}
+.card a
+{
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+
+}
+.card-header
+{
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    /* background-color: transparent; */
+}
+.card a:hover
+{
+    color: orangered;
+}
+
+
+.accordion-item 
+{
+    border: 0;
+    border-bottom:1px solid rgba(0, 0, 0, 0.151) ;
+    
+}
+
+
+.accordion-item .accordion-button:hover
+{
+   background-color: azure;
+    
+}
+.accordion-button:focus
+{
+   outline: 0 !important;
+   box-shadow: 0 !important;
+    
+}
+
+.row
+{
+    text-align: center;
+   
+}
+
+
+nav
+{
+    width: 100%;
+    height: 80px;
+    
+}
+.navbar{
+    background-color:white!important;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.navbar ul li
+{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 300;
+    font-size: large;
+}  
+.navbar ul li a:hover
+{
+    color: rgb(250, 100, 0);
+}
+#navbarSupportedContent
+{
+    background-color: white !important;
+}
+.dropdown-menu
+{
+    border-radius: 10px;
+    font-weight: 100;
+    font-size: large;
+}
+
+
+#hd
+{
+    text-align: start;
+    justify-content: start;
+}
+.But
+{
+   border-radius: 25px;
+   border-color: skyblue;
+   padding: 2px;
+}
+.But2
+{
+   border-radius: 25px;
+   border-color: skyblue;
+   padding: 3px;
+   margin-top: 8px;
+}
+.Q{
+    padding: 20px;
+}
+
+.top
+{
+    background-color: transparent;
+    padding-bottom: 30px;
+}
+
+
+  .A1
+  {
+      text-decoration: none;
+      color: black;
+  }
+.Card
+{
+    scroll-behavior: smooth;
+    position: sticky;
+    padding: 20px;
+    margin-bottom: 50px;
+    width: 80em;
+    
+}
+
+.Card ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+#AA
+{
+    color: darkcyan;
+    /* background-color: transparent !important; */
+    background: transparent;
+} 
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+     .top h1{ text-align: center;
+    }
+
+    .Card{
+        width: 98% !important;
+    }
+    .card{
+        margin-bottom: 50px !important;
+    }
+
+  }
+ 
